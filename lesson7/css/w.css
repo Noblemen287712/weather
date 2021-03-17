@@ -1,0 +1,15 @@
+.main-cantainer{
+    display: inline;
+}
+.top-block{
+    background-image: url('../img/sky.jpg');
+}
+.town{
+    font-family: sans-serif;
+    list-style: none;
+    display: inline block;
+}
+.town li{
+    text-align: center;
+    font-size: 30px;
+}
