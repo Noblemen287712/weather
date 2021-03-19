@@ -1,6 +1,5 @@
 .main-container{
-    background: url('../img/sea.jpg') no-repeat ;
-    background-size: 100%;
+   background-color: rgb(57, 157, 175);
     border:3px solid rgb(22, 20, 18);
     border-radius: 20px;
     box-shadow: 20px 20px 20px rgba(248, 203, 5, 0.1);
@@ -10,15 +9,19 @@
     text-align: center;
     color: #000;
     font-size: 80px;
+    font-family: 'Lemonada', cursive;
 }
 .top-block{
     border:3px solid peru;
     border-radius: 20px;
+    background: url('../img/sea.jpg') no-repeat ;
+    background-size: 100%;
 }
 .town{
     font-family: sans-serif;
     list-style: none;
     text-align: center;
+    font-family: 'Lemonada', cursive;
 }
 .town li{
     background-image: url('../img/sky.jpg');
@@ -44,9 +47,10 @@
 }
 /* article */
 .weather-in-town{
-    display: inline-block;
+    display: block;
     border-radius: 30px;
-    border:1px solid rgb(100, 6, 131);
+    border: 2px solid rgb(100, 6, 131);
+    margin: 20px;
     
 }
 .main-h2{
@@ -54,9 +58,22 @@
     text-align: center;
     color: rgb(216, 7, 7);
     font-size: 50px;
+    font-family: 'Lemonada', cursive;
 }
     
 .article-wither{
     color:rgb(5, 9, 236);
     font-size:30px;
+    font-family: 'Caveat', cursive;
+}
+/* Footer */
+.footer{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Lemonada', cursive;
+}
+.icon{
+    width: 20px;
+    height: 20px;
+    padding-left: 20px;
 }
